@@ -1,0 +1,69 @@
+.titulo{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.new_product{
+    background-color: #3679B0;
+    margin: 40px 0;
+}
+
+.btn_edit{
+    background-color: #5AC0E0;
+}
+
+.btn_delete{
+    background-color: #CF564F;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.8); 
+    box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.5);
+}
+
+.content-table thead tr{
+    background-color: #3679B0;
+    color: white;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
+}
+
+.content-table td:nth-of-type(2){
+    width: 50%;
+}
+
+.content-table td:nth-of-type(6){
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-table form{
+    margin: 0 2px;
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid gray;
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background-color: #ececec;
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #3679B0;
+}
+
+
